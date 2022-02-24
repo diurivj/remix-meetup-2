@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section.grid {
+  margin: 8px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1080px;
+}
+
+div.card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.card h3 {
+  margin: 16px 0;
+}
+
+div.card div.stats-container {
+  display: flex;
+}
+
+div.card div.stats-container span {
+  width: 50%;
+}
+
+div.card a {
+  color: #000000;
+  margin-top: 32px;
+  align-self: flex-end;
+}

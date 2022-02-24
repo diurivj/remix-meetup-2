@@ -1,0 +1,27 @@
+div.card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+div.card h3 {
+  margin: 16px 0;
+}
+
+div.card div.stats-container {
+  display: flex;
+}
+
+div.card div.stats-container span {
+  width: 50%;
+}
+
+div.card a {
+  color: #000000;
+  margin-top: 32px;
+  align-self: flex-end;
+}
